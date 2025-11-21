@@ -97,24 +97,24 @@ h1 {
 }
 
 .learn_more_button:hover {
-    background-color: #CC8AFF;
+    background-color: rgba(255, 255, 255, 0.5);
     color: black;
 }
 
 /*about*/
 
 .about {
+    max-width: 1000px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.5);
-    margin: 10px;
     padding: 50px 0;
     gap: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
-
 
 .info_section {
     font-size: 14px;
@@ -125,22 +125,5 @@ h1 {
 }
 
 h2 {
-    color: black;
-}
-
-.info_section_card {
-    width: 300px;
-    height: 250px;
-    padding: 40px 0;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: black;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-}
-
-.card_text {
-    padding: 5px;
+    color: #5C00A3;
 }
