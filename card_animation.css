@@ -151,8 +151,8 @@
 /* From Uiverse.io by gharsh11032000 */
 .learn_more_button {
     position: relative;
-    margin: 40px;
-    width: 140px;
+    margin: 50px;
+    width: 150px;
     height: 40px;
     background-color: #5C00A3;
     display: flex;
@@ -173,8 +173,8 @@
     left: -4px;
     top: -1px;
     margin: auto;
-    width: 148px;
-    height: 48px;
+    width: 158px;
+    height: 50px;
     border-radius: 20px;
     background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
     z-index: -10;
