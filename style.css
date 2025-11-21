@@ -144,6 +144,11 @@ h2 {
 
 /*how_works*/
 
+.how_works {
+    position: relative;
+    overflow: hidden;
+}
+
 .how_works_section_points {
     display: flex;
     flex-direction: column;
@@ -165,7 +170,7 @@ h3 {
     -webkit-text-fill-color: transparent;
 }
 
-.number {
+.how_works_section_point_number {
     display: flex;
     align-items: flex-end;
     justify-content: center;
