@@ -121,7 +121,7 @@ h1 {
 }
 
 .info_section {
-    font-size: 14px;
+    font-size: 15px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -139,6 +139,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     padding: 50px 0;
+    gap: 30px;
 }
 
 .neuro_use_title {
@@ -148,4 +149,12 @@ h2 {
 .neuro_use_section {
     width: 100%;
     display: flex;
+}
+
+.neuro_use_section {
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
 }
