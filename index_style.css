@@ -16,7 +16,7 @@ html {
     font-family: 'Vivo Sans';
     font-style: normal;
     font-weight: normal;
-    src: local('Vivo Sans'), url('fonts/vivoSansGlobal-Light.ttf') format('truetype');
+    src: local('Vivo Sans'), url('vivoSansGlobal-Light.ttf') format('truetype');
 }
 
 body {
