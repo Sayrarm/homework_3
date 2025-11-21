@@ -86,7 +86,7 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 30px auto;
 }
 
 h1 {
@@ -143,6 +143,44 @@ h2 {
 }
 
 /*how_works*/
+
+.how_works_section_points {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.how_works_section_point {
+    display: grid;
+    grid-template-columns: 50px 15px 1fr;
+    border: 1px solid #CEA0F1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h3 {
+    background: linear-gradient(-45deg, #5C00A3 0%, #B85CFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #5C00A3, #B85CFF);
+}
+
+.how_works_section_point_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+}
 
 /*future*/
 
