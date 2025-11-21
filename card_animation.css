@@ -217,7 +217,6 @@
 }
 
 .container {
-    position: relative;
     transform: skewY(-20deg);
     animation: animate 5s linear infinite;
 
