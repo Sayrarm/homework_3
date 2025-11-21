@@ -174,7 +174,7 @@ h2 {
 }
 
 h3 {
-    background: linear-gradient(-45deg, #5C00A3 0%, #B85CFF 100%);
+    background: linear-gradient(-45deg,#B85CFF  0%,#5C00A3  100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
