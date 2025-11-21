@@ -167,11 +167,13 @@ h3 {
 
 .number {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     padding: 10px 10px;
     border-radius: 50%;
     background: linear-gradient(to right, #5C00A3, #B85CFF);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .how_works_section_point_text {
