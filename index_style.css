@@ -34,21 +34,21 @@ body {
     background-color: #FAFCF9;
 }
 
-.header {
+.header_index {
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
 }
 
-.header {
+.header_index {
     margin-top: 10px;
 }
 
-h1 {
+.h1_index {
     margin: 10px 0;
 }
 
-.nav_menu {
+.nav_menu_index {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -97,12 +97,12 @@ a {
     display: inline-block;
 }
 
-.nav_link:hover,
+.nav_link_index:hover,
 .footer_link:hover {
     color: #C2B6AE;
 }
 
-.nav_link:hover::after,
+.nav_link_index:hover::after,
 .footer_link:hover::after {
     content: '';
     position: absolute;

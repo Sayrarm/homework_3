@@ -5,7 +5,7 @@
 }
 
 html, body {
-    height: 200%;
+    height: 150%;
 }
 
 html {
@@ -218,4 +218,16 @@ h3 {
     flex-direction: column;
     gap: 20px;
     padding: 5px;
+}
+
+/*footer*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+    background-color: rgba(92, 0, 163, 0.7);
+    height: 200px;
 }
