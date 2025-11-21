@@ -281,7 +281,7 @@ h3 {
 @media (max-width: 569px) {
 
     html, body {
-        height: 200%;
+        height: 220%;
     }
 
     header {
@@ -292,6 +292,7 @@ h3 {
     .nav_menu {
         display: flex;
         flex-direction: column;
+        gap: 5px;
     }
 }
 
