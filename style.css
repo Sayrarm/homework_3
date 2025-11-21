@@ -28,6 +28,11 @@ body {
     color: white;
 }
 
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /*header*/
 
 header {
@@ -105,8 +110,6 @@ h1 {
 /*about*/
 
 .about {
-    max-width: 1000px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,4 +130,22 @@ h1 {
 
 h2 {
     color: #5C00A3;
+}
+
+/*neuro_use*/
+
+.neuro_use {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.neuro_use_title {
+    color: white;
+}
+
+.neuro_use_section {
+    width: 100%;
+    display: flex;
 }
