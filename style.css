@@ -147,14 +147,8 @@ h2 {
 }
 
 .neuro_use_section {
-    width: 100%;
-    display: flex;
-}
-
-.neuro_use_section {
     font-size: 15px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    gap: 15px;
+    justify-content: space-between;
 }
