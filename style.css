@@ -281,7 +281,7 @@ h3 {
 @media (max-width: 569px) {
 
     html, body {
-        height: 220%;
+        height: auto;
     }
 
     header {
